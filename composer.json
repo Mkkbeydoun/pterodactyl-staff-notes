@@ -1,0 +1,11 @@
+{
+    "description": "Private admin notes and flags (VIP, watch, problem) on users and servers, shown on their admin pages and in the server list.",
+    "autoload": {
+        "psr-4": {
+            "RustixDev\\StaffNotes\\": "src/"
+        }
+    },
+    "config": {
+        "autoloader-suffix": "StaffNotesExtension"
+    }
+}
