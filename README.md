@@ -25,13 +25,15 @@ Private admin notes and flags (VIP, watch, problem) on users and servers, shown 
 
 ## Install
 
-From a release archive (`staff-notes-1.0.0.pteroext`):
+1. Download `staff-notes-<version>.pteroext` from the [latest release](https://github.com/Mkkbeydoun/pterodactyl-staff-notes/releases/latest).
+2. In the panel, open **Admin → Extensions**, upload the file and enable it.
+3. Reload the panel.
+
+From a terminal instead:
 
 ```sh
-php artisan p:extension:install /path/to/staff-notes-1.0.0.pteroext --enable
+php artisan p:extension:install /path/to/staff-notes-<version>.pteroext --enable
 ```
-
-Or upload the archive under **Admin → Extensions**. Reload the panel afterwards.
 
 ## Build from source
 
@@ -46,6 +48,14 @@ php artisan p:extension:pack /path/to/staff-notes
 
 ## Uninstall
 
+Remove it under **Admin → Extensions**, or from a terminal:
+
 ```sh
 php artisan p:extension:remove staff-notes
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+This is a community extension and is not affiliated with or endorsed by Pterodactyl.
