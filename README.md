@@ -25,7 +25,7 @@ Private admin notes and flags (VIP, watch, problem) on users and servers, shown 
 
 ## Install
 
-1. Download `staff-notes-<version>.pteroext` from the [latest release](https://github.com/Mkkbeydoun/pterodactyl-staff-notes/releases/latest).
+1. Download `staff-notes-<version>.pteroext` from the [latest release](https://github.com/Rustix-Development/pterodactyl-staff-notes/releases/latest).
 2. In the panel, open **Admin → Extensions**, upload the file and enable it.
 3. Reload the panel.
 
