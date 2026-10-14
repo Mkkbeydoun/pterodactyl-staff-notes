@@ -20,7 +20,7 @@ Private admin notes and flags (VIP, watch, problem) on users and servers, shown 
 
 ## Requirements
 
-- Pterodactyl Panel 2.0 (2.0-develop or later)
+- Pterodactyl Panel v2.0.0-beta.1 or later
 - PHP 8.3+
 
 ## Install

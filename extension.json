@@ -2,13 +2,13 @@
     "$schema": "./node_modules/@pterodactyl/sdk/manifest.schema.json",
     "id": "staff-notes",
     "name": "Staff Notes",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Private admin notes and flags (VIP, watch, problem) on users and servers, shown on their admin pages and in the server list.",
     "author": "RustixDev",
     "icon": "notebook-pen",
     "requires": {
         "panel": "^2.0.0-dev",
-        "sdk": ">=2.0.0-beta.4 <3.0",
+        "sdk": ">=2.0.0-beta.6 <3.0",
         "php": "^8.3"
     },
     "provider": "RustixDev\\StaffNotes\\StaffNotesProvider",
